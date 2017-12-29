@@ -1,0 +1,58 @@
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+TensorFlow Version: 1.0.1
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:910] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties:
+name: GeForce GTX 980
+major: 5 minor: 2 memoryClockRate (GHz) 1.266
+pciBusID 0000:01:00.0
+Total memory: 3.94GiB
+Free memory: 3.78GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 980, pci bus id: 0000:01:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 980, pci bus id: 0000:01:00.0)
+Default GPU Device: /gpu:0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 980, pci bus id: 0000:01:00.0)
+Tests Passed
+Tests Passed
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 980, pci bus id: 0000:01:00.0)
+Tests Passed
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 980, pci bus id: 0000:01:00.0)
+Tests Passed
+Tests Passed
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 980, pci bus id: 0000:01:00.0)
+W tensorflow/core/common_runtime/bfc_allocator.cc:217] Ran out of memory trying to allocate 1.08GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+W tensorflow/core/common_runtime/bfc_allocator.cc:217] Ran out of memory trying to allocate 1.08GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+W tensorflow/core/common_runtime/bfc_allocator.cc:217] Ran out of memory trying to allocate 1.08GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+W tensorflow/core/common_runtime/bfc_allocator.cc:217] Ran out of memory trying to allocate 1.08GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+Epoch : 1, Loss = 0.725288
+Epoch : 2, Loss = 0.604167
+Epoch : 3, Loss = 0.313749
+Epoch : 4, Loss = 0.145183
+Epoch : 5, Loss = 0.220308
+Epoch : 6, Loss = 0.0973097
+Epoch : 7, Loss = 0.213666
+Epoch : 8, Loss = 0.167125
+Epoch : 9, Loss = 0.0709975
+Epoch : 10, Loss = 0.14139
+Epoch : 11, Loss = 0.0362951
+Epoch : 12, Loss = 0.0215073
+Epoch : 13, Loss = 0.0454991
+Epoch : 14, Loss = 0.0595422
+Epoch : 15, Loss = 0.128512
+Epoch : 16, Loss = 0.0585697
+Epoch : 17, Loss = 0.0579557
+Epoch : 18, Loss = 0.052487
+Epoch : 19, Loss = 0.0204219
+Epoch : 20, Loss = 0.0553019
+Training Finished. Saving test images to: ./runs/1514559636.2715714
